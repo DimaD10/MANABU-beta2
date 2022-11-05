@@ -7,4 +7,8 @@ $(document).ready(function(){
         zIndex: 1,
         appendArrows: $('.emo__arrows'),
     });
+    $('.product-preview__slider').slick({
+        zIndex: 5,
+        appendArrows: $('.slider__controller'),
+    });
 });
